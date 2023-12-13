@@ -58,3 +58,17 @@ console.log("ENGINE:", car["engine"]); //? objeAdi["keyAdi"]
 // )
 
 // alert(car[myKey])
+
+//* ---------------------------------------------------------
+//* 2- Object() class'ından new Operatörü ile
+//* ---------------------------------------------------------
+
+const myCar = new Object();
+myCar.brand = "Mercedes";
+myCar.model = 2022;
+myCar.speed = 7;
+
+console.log(myCar.speed);
+console.log(myCar["model"]);
+
+console.log(myCar);
